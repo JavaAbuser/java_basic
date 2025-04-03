@@ -42,35 +42,7 @@ public class UniversityController {
         return getUniversity();
     }
 
-    public static Human getRector() {
-        return rector;
-    }
-
     public static University getUniversity() {
         return university;
-    }
-
-    public static Human getMain() {
-        return main;
-    }
-
-    public static Faculty getFaculty() {
-        return faculty;
-    }
-
-    public static Human getMainOfDepartment() {
-        return mainOfDepartment;
-    }
-
-    public static Department getDepartment() {
-        return department;
-    }
-
-    public static Human getGroupLeader() {
-        return groupLeader;
-    }
-
-    public static Group getGroup() {
-        return group;
     }
 }
